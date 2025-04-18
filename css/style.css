@@ -1,0 +1,77 @@
+@import url('photographer.css');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 44px;
+}
+
+h1 {
+  color: #901c1c;
+  margin: 0 100px 0 0;
+}
+
+.header_title {
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 100px;
+}
+
+.photographer_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+  margin-top: 100px;
+}
+
+.photographer_section article,
+.user-card {
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.photographer_section article h2 {
+  color: #d3573c;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 20px 0 0 0;
+}
+
+.user-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.location {
+  color: #901c1c;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.line {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.cost {
+  color: #757575;
+  font-size: 9px;
+  font-weight: 400;
+}
